@@ -9,7 +9,7 @@ This C program compares the performance of **scalar** and **SIMD** (Single Instr
 * Scalar 1D loop implementation (same logic, different access pattern)
 * SIMD implementation using AVX intrinsics
 
-## ⚙️ Implementation Details
+##  Implementation Details
 
 ### Matrix Operation:
 
@@ -54,7 +54,7 @@ Ensure you are using a compiler that supports AVX intrinsics (e.g., GCC on x86\_
 gcc -O2 -mavx -o simd_test i221241_Q1_Scalar_SIMD.c
 ```
 
-## ▶ How to Run
+##  How to Run
 
 ```bash
 ./simd_test
